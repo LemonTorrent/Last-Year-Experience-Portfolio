@@ -11,6 +11,10 @@ const NavStyle = styled.div`
     width: 100%;
     // justify-content: center;
     color: white;
+    // font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    // 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    // 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    font-family: var(--font-mono);
 
     li {
         list-style-type: none;
