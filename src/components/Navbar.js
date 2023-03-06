@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styled from '@emotion/styled'
+import Navdrawer from './Navdrawer';
 
 const NavStyle = styled.div`
     // background-color: #f4cce4;
@@ -54,6 +55,11 @@ function Navbar() {
         <li>
           <Link href="/about">
             About
+          </Link>
+        </li>
+        <li>
+          <Link href="/thesis">
+            Honors Thesis
           </Link>
         </li>
       </ul>
